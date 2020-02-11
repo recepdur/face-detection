@@ -1,0 +1,107 @@
+
+h1 {
+	margin: 0;
+	font-size: 25px;
+	line-height: 30px;
+	text-align: center;
+}
+
+#container {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.row {
+	padding: 10px;
+}
+
+#dropbox {
+	width: 600px;
+	height: 250px;
+	margin-left: 350px;
+	padding: 15px;
+	text-align: center;
+	font-size: 25px;
+	color: #aaa;
+	border: #ccc 2px dashed;
+	border-radius: 15px;
+}
+
+.row img {
+	color: #aaa;
+	border: #ccc 2px dashed;
+	border-radius: 15px;
+}
+
+#img1 {
+    height: 320px;
+    width: 420px;
+	margin-left: 450px;
+	padding: 5px;
+}
+
+#kucuk-box {
+    height: 100px;
+	margin-left: 300px;
+}
+
+.img2 {
+    height: 95px;
+    width: 90px;
+	padding: 5px;
+}
+
+.file-input-wrapper {
+    width: 150px;
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+	margin-left: 220px;
+}
+.file-input-wrapper > input[type="file"] {
+    font-size: 150px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0;
+}
+.file-input-wrapper > .btn-file-input {
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+	background-color: #3399CC;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 17px;
+	color: white;
+}
+.file-input-wrapper:hover > .btn-file-input {
+	background-color: #3399FF;
+	border-radius: 10px;
+}
+
+
+.box1{
+    width: 120px;
+    height: 30px;
+    overflow: hidden;
+    position: relative;
+	margin-left: 220px;
+    display: inline-block;
+	background-color: #3399CC;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 17px;
+}
+.box1:hover {
+	background-color: #3399FF;
+	border-radius: 10px;
+}
+
+.box1 .link1 {
+	color: white;
+	TEXT-DECORATION: none; 
+}
+
